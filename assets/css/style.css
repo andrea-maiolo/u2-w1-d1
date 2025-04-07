@@ -262,3 +262,25 @@ footer a {
     display: inline-block;
   }
 }
+
+@media print {
+  header {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  main article section {
+    display: none;
+  }
+
+  main iframe {
+    display: none;
+  }
+
+  aside {
+    display: none;
+  }
+}
