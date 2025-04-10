@@ -246,12 +246,56 @@ footer a {
 }
 
 @media screen and (min-width: 1200px) {
-  /* header div img {
-    width: 10%;
-  } */
+  body p li {
+    font-size: 2rem;
+  }
 
-  header div {
+  main article h1 {
+    font-size: 6rem;
+  }
+
+  main article div #badge {
+    height: 8rem;
+  }
+
+  main article h2 {
+    font-size: 2rem;
+  }
+
+  main article table {
+    width: 70%;
+  }
+
+  iframe {
     display: inline-block;
+    width: 48%;
+    margin: 0;
+    vertical-align: bottom;
+    height: 40vh;
+  }
+
+  section {
+    display: inline-block;
+    margin: 0;
+    vertical-align: bottom;
+    width: 48%;
+    height: 40vh;
+  }
+
+  section p {
+    font-size: 2rem;
+    margin-bottom: 9rem;
+  }
+
+  aside {
+    margin-top: 5rem;
+  }
+
+  aside div {
+    display: inline-block;
+    width: 33%;
+    margin-right: -4px;
+    height: 10vh;
   }
 }
 
