@@ -31,13 +31,20 @@ header {
 }
 header div img {
   margin-bottom: 20px;
+  width: 60%;
 }
 header nav ul {
   margin: 0;
 }
 header nav li {
   list-style: none;
+  display: inline-block;
 }
+
+header nav li:not(:last-of-type) {
+  margin-right: 0.5rem;
+}
+
 header nav li a {
   color: white;
   text-decoration: none;
@@ -56,6 +63,14 @@ main {
   padding: 2em 1em;
   margin-bottom: 1.5em;
 }
+
+main article div #badge {
+  height: 50px;
+  padding: 0.5rem;
+  border: 3px solid blue;
+  outline: 3px solid red;
+}
+
 section {
   background-color: #e3e3e3;
   padding: 1em;
@@ -68,6 +83,7 @@ section h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 1em;
+  background-color: #a3a3a3;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -185,40 +201,10 @@ footer {
   color: #f0f0f0;
   padding: 1em;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 footer a {
   color: fuchsia;
-}
-
-/* code added aftert!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-@media screen and (min-width: 576px) {
-  header div img {
-    width: 60%;
-  }
-
-  header nav li {
-    display: inline-block;
-  }
-
-  header nav li:not(:last-of-type) {
-    margin-right: 0.5rem;
-  }
-
-  main article div #badge {
-    height: 50px;
-    padding: 0.5rem;
-    border: 3px solid blue;
-    outline: 3px solid red;
-  }
-
-  main section h2 {
-    background-color: #a3a3a3;
-  }
-
-  footer {
-    font-size: 1.5rem;
-  }
 }
 
 @media screen and (min-width: 768px) {
