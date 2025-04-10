@@ -213,7 +213,7 @@ footer a {
   }
 
   main article h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   main article h2 {
@@ -221,9 +221,9 @@ footer a {
   }
 
   main article table {
-    margin: auto;
+    margin-inline: auto;
     width: 80%;
-    margin-bottom: 7rem;
+    margin-block: 7rem;
   }
 
   main article table caption {
