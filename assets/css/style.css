@@ -201,9 +201,15 @@ footer a {
     display: inline-block;
   }
 
+  header nav li:not(:last-of-type) {
+    margin-right: 0.5rem;
+  }
+
   main article div #badge {
-    width: 15%;
-    border: 2px solid blue;
+    height: 50px;
+    padding: 0.5rem;
+    border: 3px solid blue;
+    outline: 3px solid red;
   }
 
   main section h2 {
